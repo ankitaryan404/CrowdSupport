@@ -1,7 +1,7 @@
 //import web3 from "../ethereum/web3";
 import Link from "next/link";
-import factory from "../ethereum/factory";
-import Layout from "../components/Layout";
+import factory from "@ethereum/factory";
+import Layout from "@components/Layout";
 import { CardGroup, Button } from "semantic-ui-react";
  
   

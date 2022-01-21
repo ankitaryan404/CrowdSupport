@@ -2,9 +2,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { Button, Form, FormField, Input, Label, Message } from "semantic-ui-react";
-import Layout from "../../../../components/Layout";
-import CampaignContract from "../../../../ethereum/campaign";
-import web3 from "../../../../ethereum/web3";
+import Layout from "@components/Layout";
+import CampaignContract from "@ethereum/campaign";
+import web3 from "@ethereum/web3";
 
 
 export async function getServerSideProps(context) {

@@ -1,8 +1,8 @@
-import Layout from "../../../components/Layout";
-import CampaignContract from "../../../ethereum/campaign";
+import Layout from "@components/Layout";
+import CampaignContract from "@ethereum/campaign";
 import { Button, Card, Grid, GridColumn, GridRow } from "semantic-ui-react";
-import web3 from "../../../ethereum/web3";
-import ContributeForm from "../../../components/ContributeForm";
+import web3 from "@ethereum/web3";
+import ContributeForm from "@components/ContributeForm";
 import Link from "next/link";
 
 export async function getServerSideProps(context) {

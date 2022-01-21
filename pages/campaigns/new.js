@@ -1,8 +1,8 @@
-import Layout from "../../components/Layout";
+import Layout from "@components/Layout";
 import { useState } from "react";
 import { Form, Input, Button, Message } from "semantic-ui-react";
-import factory from "../../ethereum/factory";
-import web3 from "../../ethereum/web3";
+import factory from "@ethereum/factory";
+import web3 from "@ethereum/web3";
 import { useRouter } from "next/router";
 
 function CampaignNew() {

@@ -1,8 +1,8 @@
 import { Button,Table } from "semantic-ui-react";
 import Link from "next/link";
-import Layout from "../../../../components/Layout";
-import CampaignContract from "../../../../ethereum/campaign";
-import RequestRow from "../../../../components/RequestRow";
+import Layout from "@components/Layout";
+import CampaignContract from "@ethereum/campaign";
+import RequestRow from "@components/RequestRow";
 
 export async function getServerSideProps(context) {
   const { params } = context;
