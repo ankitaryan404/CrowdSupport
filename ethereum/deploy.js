@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-    "profit hero endless tumble woman stadium rabbit legal energy else base fiber",
-    "https://rinkeby.infura.io/v3/101fff01bf45414fa55795ffe6fafcf3"
+    "Mneumonic of your metamask",
+    "Rinkeby provider"
 );
  
 const web3 = new Web3(provider);
